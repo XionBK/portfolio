@@ -1,6 +1,33 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import jsLogo from './assets/js.png'
+
+import jqLg from './assets/jquery.svg'
+import sassLg from './assets/sass.png'
+import bootLg from './assets/Bootstrap.png'
+import nodeLg from './assets/nodejs.png'
+import phpLg from './assets/php.png'
+import prestaLg from './assets/prestashop.svg'
+import wordLg from './assets/wordpress.png'
+import seoLg from './assets/seo.png'
+import adsLg from './assets/google-ads.svg'
+import toshopLg from './assets/photoshop.png'
+import sketchLg from './assets/sketchup.png'
+import mysqlLg from './assets/mysql.png'
+import gitLg from './assets/git.png'
+import figLg from './assets/figma.png'
+import vscodeLg from './assets/vscode.png'
+
+import projet1 from './assets/projet1.jpg'
+import projet2 from './assets/projet2.jpg'
+
+import gm from './assets/gm.jpg'
+
+import oc from './assets/openclassrooms.jpg'
+import eura from './assets/eurateach.jpg'
+import rm from './assets/ranking-metrics.webp'
+
+
 import viteLogo from '/vite.svg'
 import './App.css'
 import TypingAnimation from './components/TypingAnimation';
@@ -122,38 +149,38 @@ function App() {
           <div>
             <h3>Front-end</h3>
               <img className="logo" src={jsLogo} alt="JavaScript" title='JavaScript'  />
-              <img className="logo" src="/src/assets/jquery.svg" alt="Jquery" title='Jquery'  />
+              <img className="logo" src={jqLg} alt="Jquery" title='Jquery'  />
               <img className="logo react" src={reactLogo}  alt="React" title='React' />
-              <img className="logo" src="/src/assets/sass.png" alt="Sass" title='Sass'  />
-              <img className="logo" src="/src/assets/Bootstrap.png" alt="Bootstrap" title='Bootstrap'  />
+              <img className="logo" src={sassLg} alt="Sass" title='Sass'  />
+              <img className="logo" src={bootLg} alt="Bootstrap" title='Bootstrap'  />
           </div>
           <div>
             <h3>Back-end</h3>
-            <img className="logo" src="/src/assets/nodejs.png" alt="NodeJS" title='NodeJS'  />
-            <img className="logo php" src="/src/assets/php.png" alt="PHP" title='PHP'  />
+            <img className="logo" src={nodeLg} alt="NodeJS" title='NodeJS'  />
+            <img className="logo php" src={phpLg} alt="PHP" title='PHP'  />
           </div>
           <div>
             <h3>CMS</h3>
-            <img className="logo" src="/src/assets/prestashop.svg" alt="Prestashop" title='Prestashop'  />
-            <img className="logo" src="/src/assets/wordpress.png" alt="Wordpress" title='Wordpress'  />
+            <img className="logo" src={prestaLg} alt="Prestashop" title='Prestashop'  />
+            <img className="logo" src={wordLg} alt="Wordpress" title='Wordpress'  />
           </div>
           <div>
             <h3>Marketing</h3>
-            <img className="logo seoG" src="/src/assets/seo.png" alt="SEO" title='SEO'  />
-            <img className="logo" src="/src/assets/google-ads.svg" alt="Google Ads" title='Google Ads'  />
+            <img className="logo seoG" src={seoLg} alt="SEO" title='SEO'  />
+            <img className="logo" src={adsLg} alt="Google Ads" title='Google Ads'  />
           </div>
           <div>
             <h3>Graphisme</h3>
-            <img className="logo" src="/src/assets/photoshop.png" alt="Photoshop" title='Photoshop'  />
-            <img className="logo" src="/src/assets/sketchup.png" alt="Sketchup" title='Sketchup'  />
+            <img className="logo" src={toshopLg} alt="Photoshop" title='Photoshop'  />
+            <img className="logo" src={sketchLg} alt="Sketchup" title='Sketchup'  />
           </div>
           <div>
             <h3>Divers</h3>
-            <img className="logo" src="/src/assets/mysql.png" alt="Mysql" title='Mysql'  />
+            <img className="logo" src={mysqlLg} alt="Mysql" title='Mysql'  />
             <img className="logo" src={viteLogo} alt="ViteJs" title='ViteJs'  />
-            <img className="logo" src="/src/assets/git.png" alt="Git" title='Git'  />
-            <img className="logo" src="/src/assets/figma.png" alt="Figma" title='Figma'  />
-            <img className="logo" src="/src/assets/vscode.png" alt="Visual Studio Code" title='Visual Studio Code'  />
+            <img className="logo" src={gitLg} alt="Git" title='Git'  />
+            <img className="logo" src={figLg} alt="Figma" title='Figma'  />
+            <img className="logo" src={vscodeLg} alt="Visual Studio Code" title='Visual Studio Code'  />
           </div>
         </div>
       </section>
@@ -163,7 +190,7 @@ function App() {
 
           <div className='cards-project'>
             <div className='card-project'>
-              <img src="/src/assets/projet1.jpg" alt="Projet react" />
+              <img src={projet1} alt="Projet react" />
               <h3>Application web de location immobilière</h3>
               <div className='tags'>
                 <span className='tag'>React</span>
@@ -179,7 +206,7 @@ function App() {
             </div>
 
             <div className='card-project'>
-              <img src="/src/assets/projet2.jpg" alt="Projet Nodejs" />
+              <img src={projet2} alt="Projet Nodejs" />
               <h3>Back-end d'un site de notation de livres</h3>
               <div className='tags'>
                 <span className='tag'>NodeJs</span>
@@ -202,7 +229,7 @@ function App() {
         <div className='container'>
           <div className='title-xp'>
             <div>
-              <img src="/src/assets/gm.jpg" alt="Global Market" />
+              <img src={gm} alt="Global Market" />
             </div>
             <div>
               <h3>GLOBAL MARKET (13 ans)</h3>
@@ -271,7 +298,7 @@ function App() {
                 <li>Planifiez le développement du site de votre client</li>
               </ul>
             </div>
-            <div><img src="/src/assets/openclassrooms.jpg" className='icon-formation' alt="Openclassrooms" /></div>
+            <div><img src={oc} className='icon-formation' alt="Openclassrooms" /></div>
           </div>
 
           <div className='card-formation'>
@@ -283,7 +310,7 @@ function App() {
               </ul>
             </div>
             <div>
-              <img src="/src/assets/eurateach.jpg" className='icon-formation' alt="Eurateach" />
+              <img src={eura} className='icon-formation' alt="Eurateach" />
             </div>
           </div>
 
@@ -300,7 +327,7 @@ function App() {
               </ul>
             </div>
             <div>
-              <img src="/src/assets/ranking-metrics.webp" className='icon-formation' alt="Ranking metrics" />
+              <img src={rm} className='icon-formation' alt="Ranking metrics" />
             </div>
           </div>
 
