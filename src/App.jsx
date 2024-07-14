@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
+import jsLogo from './assets/js.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TypingAnimation from './components/TypingAnimation';
@@ -120,7 +121,7 @@ function App() {
         <div className='container'>
           <div>
             <h3>Front-end</h3>
-              <img className="logo" src="/src/assets/js.png" alt="JavaScript" title='JavaScript'  />
+              <img className="logo" src={jsLogo} alt="JavaScript" title='JavaScript'  />
               <img className="logo" src="/src/assets/jquery.svg" alt="Jquery" title='Jquery'  />
               <img className="logo react" src={reactLogo}  alt="React" title='React' />
               <img className="logo" src="/src/assets/sass.png" alt="Sass" title='Sass'  />
