@@ -212,6 +212,7 @@ h2::after{
 .bg-contain {
   background: #f7fafb;
   padding-bottom: 20px;
+  color: #1a1a1a;
 }
 
 .marg-scroll {
@@ -221,7 +222,8 @@ h2::after{
 
 a {
   font-weight: 500;
-  color: #213547;
+  /* color: #213547; */
+  color: inherit;
   text-decoration: inherit;
   transition: color 0.3s ease;
 }

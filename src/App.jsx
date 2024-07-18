@@ -346,7 +346,7 @@ function App() {
       <a className="linkedin" href="#"><FaLinkedin style={{fontSize:'30px'}} /></a>
     </footer>
 
-      {/* <Accordion></Accordion> */}
+       {/* <Accordion></Accordion>  */}
 
     </>
   )
